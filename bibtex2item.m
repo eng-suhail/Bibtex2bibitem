@@ -185,5 +185,5 @@ end
                   bibitem = sprintf('\n \\bibitem{%s}\n %s.\n \\newblock {%s.} \n \\newblock {\\emph %s}, %s(%s), pp. %s,(%s %s). %s.\n',citecode,author,title,journal,volume,number,pages,month,year);
               elseif all(SVacI == [1	1	1	1	1	1	1	1	1])
                   bibitem = sprintf('\n \\bibitem{%s}\n %s.\n \\newblock {%s.} \n \\newblock {\\emph %s}, %s(%s), pp. %s,(%s %s). %s.\n',citecode,author,title,journal,volume,number,pages,month,year,publisher);
-              end       
+              end      
 end 
