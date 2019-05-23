@@ -13,7 +13,7 @@ A = string(cells);
 n = length(cells);
 K_name = strings(n,1);
 citecode = extractBetween(A(1),'{',',');
-SVacI = zeros(9,1); % Substyle Vacation Indicator. 
+ 
 
 for i = 2:1:n-1
         rawleft = extractBefore(A(i),'=');
