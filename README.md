@@ -6,4 +6,4 @@ Intructions about how to use the function.
 3. Insert the BibTeX file path into the function as the following:
    > bibtex2item("C:\Users\...\Desktop\BibTeX.txt") then hit enter ⬎
 4. Have fun to use the same file for next reference.
-:)
+:) :)
