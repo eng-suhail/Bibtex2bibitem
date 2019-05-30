@@ -253,6 +253,7 @@ SVacI = zeros(1,9);
     %--------------------------------------------------------------------
     elseif strcmp(K_name(1),"book")
        disp('Book')
+       SVacI = zeros(1,8);
            for i = 2:1:n-1
             rawleft = extractBefore(A(i),'=');
             K_name(i) = strtrim(rawleft);
